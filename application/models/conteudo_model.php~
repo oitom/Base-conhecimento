@@ -1,0 +1,208 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+class Conteudo_Model extends CI_Model
+{
+	var $codigo;
+	var $codigo_base;
+	var $titulo;
+	var $descricao;
+	var $data_hora;
+	var $situacao;
+	var $tipo;
+	var $publico;
+
+	public function search()
+	{
+		$where = array();
+		if ($this->codigo)
+			$where['codigo'] = $this->codigo;
+		if ($this->codigo_base)
+			$where['codigo_base'] = $this->codigo_base;
+		if ($this->titulo)
+			$where['titulo'] = $this->titulo;
+		if ($this->descricao)
+			$where['descricao'] = $this->descricao;
+		if ($this->data_hora)
+			$where['data_hora'] = $this->data_hora;
+		if ($this->situacao)
+			$where['situacao'] = $this->situacao;
+		if ($this->tipo)
+			$where['tipo'] = $this->tipo;
+		if ($this->publico)
+			$where['publico'] = $this->publico;
+
+		$qry = $this->db->get_where('conteudos', $where);
+		return $qry->result();
+	}
+
+	public function get()
+	{
+		$conteudo = $this->search()[0];
+
+		$this->codigo 		= $conteudo->codigo;
+		$this->codigo_base  = $conteudo->codigo_base;
+		$this->titulo 		= $conteudo->titulo;
+		$this->descricao 	= $conteudo->descricao;
+		$this->data_hora 	= $conteudo->data_hora;
+		$this->situacao 	= $conteudo->situacao;
+		$this->tipo 		= $conteudo->tipo;
+		$this->publico 		= $conteudo->publico;
+
+		return $conteudo;
+	}
+
+	public function getAll()
+	{
+		$qry = $this->db->get('conteudos');
+		return $qry->result();
+	}
+
+	public function join($tabela)
+	{
+		$conteudo = $this->get();
+
+		if(isset($tabela['bases']))
+		{
+			$this->load->model("base_model", "Base");
+			$this->Base->codigo = $conteudo->codigo_base;
+
+			if (is_array($tabela['bases']))
+				$base = $this->Base->join($tabela['bases']);	
+			else	
+				$base = $this->Base->get();			
+
+			$conteudo->base = $base;
+		}
+		if (isset($tabela['arquivos']))
+		{
+			$this->load->model("arquivo_model", "Arquivo");
+			$this->Arquivo->codigo_conteudo = $conteudo->codigo;
+			
+			if (is_array($tabela['arquivos']))
+				$arquivos = $this->Arquivo->join($tabela['arquivos']);
+			else	
+				$arquivos = $this->Arquivo->get();
+			$conteudo->arquivos = $arquivos;
+		}
+		if (isset($tabela['revisoes']))
+		{
+			$this->load->model("revisao_model", "Revisao");
+			$this->Revisao->codigo_conteudo = $conteudo->codigo;
+			if (is_array($tabela['revisoes']))
+				$revisoes = $this->Revisao->join($tabela['revisoes']);
+			else	
+				$revisoes = $this->Revisao->search();
+			$conteudo->revisoes = $revisoes;
+		}
+		if (isset($tabela['comentarios']))
+		{
+			$this->load->model("comentario_model", "Comentario");
+			$this->Comentario->codigo_conteudo = $conteudo->codigo;
+
+			if (is_array($tabela['comentarios']))
+				$comentarios = $this->Comentario->join($tabela['comentarios']);
+			else	
+				$comentarios = $this->Comentario->search();
+			
+			$conteudo->comentarios = $comentarios;
+		}
+		if (isset($tabela['livros']))
+		{
+			$this->load->model("livro_model", "Livro");
+			$this->Livro->codigo_conteudo = $conteudo->codigo;
+
+			if (is_array($tabela['livros']))
+				$livro = $this->Livro->join($tabela['livros']);
+			else
+				$livro = $this->Livro->get();
+
+			$conteudo->livro = $livro;
+		}
+		if (isset($tabela['perguntas']))
+		{
+			$this->load->model("pergunta_model", "Pergunta");
+			$this->Pergunta->codigo_conteudo = $conteudo->codigo;
+
+			if (is_array($tabela['perguntas']))
+				$perguntas = $this->Pergunta->join($tabela['perguntas']);
+			else
+				$perguntas = $this->Pergunta->get();
+
+			$conteudo->perguntas = $perguntas;
+		}
+		if (isset($tabela['links']))
+		{
+			$this->load->model("link_model", "Link");
+			$this->Link->codigo_conteudo = $conteudo->codigo;
+
+			if (is_array($tabela['links']))
+				$links = $this->Link->join($tabela['artigos']);
+			else
+				$links = $this->Link->get();
+
+			$conteudo->links = $links;
+		}
+		if (isset($tabela['artigos']))
+		{
+			$this->load->model("artigo_model", "Artigo");
+			$this->Artigo->codigo_conteudo = $conteudo->codigo;
+			
+			if (is_array($tabela['artigos']))
+				$artigo = $this->Artigo->join($tabela['artigos']);
+			else
+				$artigo = $this->Artigo->get();
+			
+			$conteudo->artigo = $artigo;
+		}
+
+		return $conteudo;
+	}
+
+	public function insert()
+	{
+		$data = array(
+			'codigo' => $this->codigo,
+			'codigo_base' => $this->codigo_base,
+			'titulo' => $this->titulo,
+			'descricao' => $this->descricao,
+			'data_hora' => $this->data_hora,
+			'situação' => $this->situação,
+			'tipo' => $this->tipo,
+			'publico' => $this->publico
+		);
+		$this->db->insert('conteudos', $data);
+	}
+
+	public function update()
+	{
+		$data = array();
+		if ($this->codigo_base)
+			$data['codigo_base'] = $this->codigo_base;
+		if ($this->titulo)
+			$data['titulo'] = $this->titulo;
+		if ($this->descricao)
+			$data['descricao'] = $this->descricao;
+		if ($this->data_hora)
+			$data['data_hora'] = $this->data_hora;
+		if ($this->situacao)
+			$data['situacao'] = $this->situacao;
+		if ($this->tipo)
+			$data['tipo'] = $this->tipo;
+		if ($this->publico)
+			$data['publico'] = $this->publico;
+
+		$this->db->where('codigo', $this->codigo);
+		$this->db->update('conteudos', $data);
+	}
+
+	public function delete()
+	{
+		$this->db->delete('conteudos', $this->conteudo);
+
+		$this->load->model('base_model', 'Base');
+		$this->Base->codigo = $this->codigo_base;
+		$this->Base->delete();
+	}
+	
+}
+?>

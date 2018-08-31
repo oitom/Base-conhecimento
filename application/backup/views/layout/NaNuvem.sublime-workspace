@@ -1,0 +1,810 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"palav",
+				"palavrasChave"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"c",
+				"cover"
+			],
+			[
+				"nav",
+				"nav-links"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"menu",
+				"menu"
+			],
+			[
+				"navbar",
+				"navbar-desing"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"hea",
+				"header"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"padin",
+				"padding-top"
+			],
+			[
+				"i",
+				"img"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"fonte",
+				"font-style"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"arqu",
+				"arquivo"
+			],
+			[
+				"true",
+				"true"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"wh",
+				"where"
+			],
+			[
+				"res",
+				"resultado"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"cont",
+				"conteudo"
+			],
+			[
+				"texto",
+				"texto"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"codigo",
+				"codigo_campo"
+			],
+			[
+				"codigo_",
+				"codigo_grupo"
+			],
+			[
+				"co",
+				"codigo_grupo"
+			],
+			[
+				"resposta",
+				"resposta"
+			],
+			[
+				"codi",
+				"codigo_conteudo"
+			],
+			[
+				"codig",
+				"codigo_base"
+			],
+			[
+				"is",
+				"is_array"
+			],
+			[
+				"if",
+				"ifelse	if … else …"
+			],
+			[
+				"Arquivo",
+				"Arquivo"
+			],
+			[
+				"cod",
+				"codigo_arquivo"
+			],
+			[
+				"conteudo",
+				"conteudo"
+			],
+			[
+				"get",
+				"getHeading"
+			],
+			[
+				"dista",
+				"distanciaDoInimigo"
+			],
+			[
+				"che",
+				"chegouPerto"
+			],
+			[
+				"di",
+				"distanciaDoInimigo"
+			],
+			[
+				"usu",
+				"usuario"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"Usu",
+				"Usuario"
+			],
+			[
+				"Usua",
+				"Usuario"
+			],
+			[
+				"resul",
+				"result"
+			],
+			[
+				"us",
+				"usuario"
+			],
+			[
+				"Us",
+				"Usuario"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"pesq",
+				"pesquisa"
+			],
+			[
+				"para",
+				"parametro_especifico"
+			],
+			[
+				"pes",
+				"pesquiar"
+			],
+			[
+				"cod_",
+				"cod_especifico"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/var/www/html/NaNuvem/src/application/views/inicial.php",
+			"settings":
+			{
+				"buffer_size": 6791,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/NaNuvem/src/css/estilo.css",
+			"settings":
+			{
+				"buffer_size": 2073,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/html/NaNuvem/src/application/views/layout/topo_inicial.php",
+			"settings":
+			{
+				"buffer_size": 381,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/NaNuvem/src/application/controllers/inicial.php",
+			"settings":
+			{
+				"buffer_size": 301,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/NaNuvem/src/application/controllers/page.php",
+			"settings":
+			{
+				"buffer_size": 329,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/NaNuvem/src/application/views/layout/header.php",
+			"settings":
+			{
+				"buffer_size": 546,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/NaNuvem/src/application/views/home.php",
+			"settings":
+			{
+				"buffer_size": 5975,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/html/NaNuvem/src/img/img.jpeg",
+		"/var/www/html/NaNuvem/src/img/bg-logo.png",
+		"/var/www/html/NaNuvem/src/application/controllers/inicial.php",
+		"/home/felipe/Dropbox/Tópicos Avançados/Pasta sem título/inicial.html",
+		"/var/www/html/base_conhecimento/application/views/administrador/corpo_conteudo.php",
+		"/var/www/html/base_conhecimento/application/views/administrador/corpo_base.php",
+		"/var/www/html/base_conhecimento/application/config/database.php",
+		"/var/www/html/ci/application/views/administrador/topo.php",
+		"/var/www/html/ci/application/views/Administrador/topo.php",
+		"/var/www/html/ci/application/views/base/bases.php",
+		"/var/www/html/ci/application/config/constants.php",
+		"/var/www/html/ci/application/views/conteudo/visualizar_livro.php",
+		"/var/www/html/ci/application/views/layout/topo_conteudo.php",
+		"/var/www/html/ci/application/views/layout/administrador.html",
+		"/home/felipe/Dropbox/FifeirosCJ/Site 2.0/home.html",
+		"/home/felipe/.cache/.fr-rRVbec/cssmenu/index.html",
+		"/home/felipe/.cache/.fr-ao3V77/cssmenu/styles.css",
+		"/var/www/html/ci/application/views/conteudo/visualizar_video.php",
+		"/home/felipe/Dropbox/Base de Conhecimento/base_conhecimento/application/controllers/conteudo.php",
+		"/var/www/html/ci/application/controllers/RECOVERED_FILES/var/www/html/ci/application/controllers/conteudo.php",
+		"/var/www/html/ci/application/views/conteudo/visualizar_artigo.php",
+		"/var/www/html/ci/application/views/conteudo/visualizar_audio.php",
+		"/var/www/html/ci/application/views/conteudo/mostrar.php",
+		"/var/www/html/ci/application/models/video_model.php",
+		"/var/www/html/ci/application/models/imagem_model.php",
+		"/home/felipe/Dropbox/FifeirosCJ/Borussia Dortmund.html",
+		"/var/www/html/NaNuvem/src/application/views/layout/header.php",
+		"/var/www/html/NaNuvem/src/application/views/home.php",
+		"/home/felipe/Dropbox/Tópicos Avançados/Pasta sem título/css/estilo.css",
+		"/home/felipe/Dropbox/Tópicos Avançados/bootstrap-3.2.0-dist/modelo.html",
+		"/home/felipe/Dropbox/FifeirosCJ/estilo.css",
+		"/home/felipe/Dropbox/FifeirosCJ/Home.html",
+		"/home/felipe/Dropbox/FifeirosCJ/Site 2.0/modelo.html",
+		"/var/www/html/ci/application/models/conteudo_model.php",
+		"/home/felipe/Área de Trabalho/CodeIgniter_2.2.0/index.php",
+		"/var/www/html/aula/application/views/produto/excluir.php",
+		"/var/www/html/aula/application/views/cliente/excluir.php",
+		"/var/www/html/aula/application/views/cliente/editar.php",
+		"/var/www/html/ci/application/models/comentario_model",
+		"/etc/php5/apache2/php.ini",
+		"/var/www/html/ci/application/models/comentario_model.php",
+		"/var/www/html/ci/application/controllers/artigo.php",
+		"/var/www/html/ci/application/config/database.php",
+		"/home/felipe/Dropbox/Base de Conhecimento/base_conhecimento/application/views/base/bases.php",
+		"/home/felipe/Dropbox/Base de Conhecimento/base_conhecimento/application/controllers/base.php",
+		"/var/www/html/ci/application/controllers/usuario.php",
+		"/var/www/html/ci/application/controllers/conteudo.php",
+		"/home/felipe/Dropbox/Base de Conhecimento/base_conhecimento/application/views/layout/topo-plataforma.php",
+		"/var/www/html/ci/application/models/arquivo_model.php",
+		"/var/www/html/ci/application/models/pergunta_model.php",
+		"/var/www/html/ci/application/models/resposta_model.php",
+		"/var/www/html/ci/application/models/acesso_model.php",
+		"/var/www/html/ci/application/models/funcao_model.php",
+		"/var/www/html/ci/application/models/permissao_model.php",
+		"/var/www/html/ci/application/models/metadado_model.php",
+		"/var/www/html/ci/application/models/audio_model.php",
+		"/var/www/html/ci/application/models/artigo_model.php",
+		"/var/www/html/ci/application/controllers/Permissao.php",
+		"/var/www/html/ci/application/controllers/funcao.php",
+		"/var/www/html/ci/application/controllers/acesso.php",
+		"/var/www/html/ci/application/controllers/resposta.php",
+		"/var/www/html/ci/application/controllers/comentario.php",
+		"/var/www/html/ci/application/controllers/pergunta.php",
+		"/home/felipe/Dropbox/Base de Conhecimento/base_conhecimento/application/models/base_model.php",
+		"/var/www/html/ci/application/controllers/video.php",
+		"/var/www/html/ci/application/controllers/audio.php",
+		"/var/www/html/ci/application/models/video_model",
+		"/var/www/html/aula/application/views/cadastrar.php",
+		"/home/felipe/Dropbox/Base de Conhecimento/Atividade Codeigniter - Nata e Wellington/CI-v2/application/controllers/usuario.php",
+		"/var/www/html/ci/application/controllers/imagem.php",
+		"/home/felipe/Dropbox/Base de Conhecimento/bases_model.php",
+		"/home/felipe/Dropbox/Base de Conhecimento/Atividade Codeigniter - Nata e Wellington/CI-v2/application/models/publicacao_model.php",
+		"/home/felipe/Dropbox/Base de Conhecimento/Atividade Codeigniter - Nata e Wellington/CI-v2/application/controllers/publicacao.php",
+		"/var/www/html/ci/application/views/usuario/listar.php",
+		"/var/www/html/ci/application/views/conteudo/mostrar_imagem.php",
+		"/home/felipe/Dropbox/Base de Conhecimento/conteudo.html",
+		"/var/www/html/ci/application/views/conteudo/listar.php",
+		"/var/www/html/ci/application/controllers/arquivo.php",
+		"/var/www/html/ci/application/models/usuario_model.php",
+		"/var/www/html/ci/application/views/usuario/pesquisar.php",
+		"/home/felipe/Dropbox/Tópicos Avançados/09-09-2014/modelo.html",
+		"/var/www/html/ci/application/views/usuario/cadastrar.php",
+		"/home/felipe/Dropbox/Tópicos Avançados/09-09-2014/teste.html",
+		"/home/felipe/Dropbox/Tópicos Avançados/09-09-2014/quimicoapp.html",
+		"/home/felipe/Área de Trabalho/Micrerinho.java",
+		"/home/felipe/Área de Trabalho/Micrerinho2.java",
+		"/media/felipe/209A-A04E/robocode/Micrero.java",
+		"/var/www/html/ci/index.php",
+		"/home/felipe/Dropbox/Tópicos Avançados/09-09-2014/teste.hmtl",
+		"/home/felipe/Dropbox/Tópicos Avançados/bootstrap-3.2.0-dist/exercício1.html",
+		"/var/www/html/ci/application/models/publicacao_model.php",
+		"/home/felipe/Área de Trabalho/Principal/modelo.html",
+		"/home/felipe/PHPUnit/composer.json",
+		"/home/felipe/PHPUnit/vendor/autoload.php",
+		"/home/felipe/PHPUnit/vendor/composer/autoload_real.php",
+		"/home/felipe/PHPUnit/Carro.php",
+		"/home/felipe/PHPUnit/CarroTeste.php",
+		"/home/felipe/Área de Trabalho/Atlético de Madrid",
+		"/home/felipe/PHPUnit/CarroTeste2.php",
+		"/var/www/html/ci/application/Carro.php",
+		"/home/felipe/Área de Trabalho/backup",
+		"/var/www/html/ci/application/controllers/CarroTeste.php",
+		"/home/felipe/.local/share/Trash/files/carro.php",
+		"/home/felipe/PHPUnit/composer.phar",
+		"/media/felipe/MULTIBOOT/Arquivos/C13EX01.C",
+		"/media/felipe/MULTIBOOT/Arquivos/stdgen.h",
+		"/home/felipe/Dropbox/Tópicos Avançados/02-09-2014/exercício1.html",
+		"/var/www/html/ci/application/views/usuario/pesquisar_principal.php",
+		"/home/felipe/Downloads/ponteiros.cpp",
+		"/var/www/html/ci/application/views/usuario/excluir.php",
+		"/var/www/html/ci/css/estilo.css",
+		"/home/felipe/chave",
+		"/home/felipe/Área de Trabalho/como usar o git.txt",
+		"/var/www/html/ci/application/views/usuario/listar_pesquisa.php",
+		"/home/felipe/Área de Trabalho/ponteiros.cpp",
+		"/var/www/html/ci/application/views/usuario/editar.php",
+		"/media/felipe/209A-A04E/30-09-2014/index.html",
+		"/var/www/html/index.html",
+		"/var/www/html/ci/js/respond.js",
+		"/home/felipe/Dropbox/TCC/radix.c",
+		"/media/felipe/209A-A04E/30-09-2014/listar.html",
+		"/media/felipe/209A-A04E/listar.php",
+		"/media/felipe/209A-A04E/cadastrar.php",
+		"/var/www/html/CI/application/models/usuario_model.php",
+		"/var/www/html/CI/application/controllers/usuario.php",
+		"/var/www/html/info.php",
+		"/var/www/html/phpmyadmin/index.php",
+		"/var/www/html/CI/application/config/database.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$base",
+			"conteudo",
+			"main",
+			"fa",
+			"\">\n",
+			"form",
+			"   ",
+			"FONT",
+			"li",
+			"></",
+			"texto",
+			"codigo_conteudo",
+			"$codigo_conteudo",
+			"codigo_conte",
+			"')",
+			"define",
+			"opcoes",
+			"opco",
+			"=>",
+			"display_errors",
+			"errors",
+			"contudo",
+			"join",
+			"getAll",
+			"get",
+			"search",
+			"searc",
+			"Usuario",
+			"left",
+			"right",
+			"</div>",
+			",/",
+			"<div class=\"col-md-11 pull-right\">",
+			"<div class=\"col-md-11\">",
+			"<div class=\"col-md-12\">",
+			"h3",
+			"h2",
+			"h4",
+			"h3",
+			"h5",
+			"h4",
+			"h3",
+			"h2",
+			"diretorio",
+			"where",
+			"href",
+			"\" ",
+			"<p>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$bases[$i]",
+			"</li>",
+			"<li>",
+			"h4",
+			"h3",
+			"h5",
+			"h4",
+			"h3",
+			"h5",
+			"h4",
+			"Diretório"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/var/www/html/NaNuvem/src/application/views/inicial.php",
+					"settings":
+					{
+						"buffer_size": 6791,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4312,
+								4312
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1879.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/html/NaNuvem/src/css/estilo.css",
+					"settings":
+					{
+						"buffer_size": 2073,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2068,
+								2068
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1829.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/var/www/html/NaNuvem/src/application/views/layout/topo_inicial.php",
+					"settings":
+					{
+						"buffer_size": 381,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								117,
+								117
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/var/www/html/NaNuvem/src/application/controllers/inicial.php",
+					"settings":
+					{
+						"buffer_size": 301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								295,
+								295
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/var/www/html/NaNuvem/src/application/controllers/page.php",
+					"settings":
+					{
+						"buffer_size": 329,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								181,
+								181
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/var/www/html/NaNuvem/src/application/views/layout/header.php",
+					"settings":
+					{
+						"buffer_size": 546,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								433,
+								433
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 209.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/var/www/html/NaNuvem/src/application/views/home.php",
+					"settings":
+					{
+						"buffer_size": 5975,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5751,
+								5751
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2462.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 305.0,
+	"status_bar_visible": true
+}

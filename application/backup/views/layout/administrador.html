@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width-device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="../../../css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="../../../css/font-awesome-4.2.0/css/font-awesome.min.css">
+		<!--<link rel="stylesheet" type="text/css" href="../../../css/estilo.css">-->
+		<title>Administrador</title>
+		<style>
+			section
+			{
+				background-color: #32a3cb;
+				margin-top: 70px;
+			}
+			h2
+			{
+				-webkit-margin-before: 0px;
+				-webkit-margin-after: 0px;
+				padding-bottom: 20px;
+			}
+			#texto-notificacao
+			{
+				color: white;
+			}
+			#texto-notificacao:hover
+			{
+				background-color: white;
+				color: #1a7fa4;
+			}
+			#notificacao
+			{
+				border: 1px solid white;
+				border-radius: 20px;
+				background-color: red;
+				color: white;
+			}
+			#user-area{
+				color: white;
+				padding-top: 10px;
+				margin-left: 50px;
+			}
+			#user-area img{
+				padding: 1px;
+				width: 35px;
+				height: auto;
+			}
+			#menu-lateral
+			{
+				padding: 10px;
+				position: relative;
+			}
+			#menu-lateral ul
+			{
+				background-color: white;
+				padding: 10px;
+				width: 15%;
+			}
+			#menu-lateral a:hover div div 
+			{
+				background-color: #1a7fa4;
+				color: white;
+
+			}
+			#botao-adicionar
+			{
+				background-color: #009900;
+				border-color: #006600;
+				color: white;
+			}
+			#botao-adicionar:hover
+			{
+				background-color: #006600;
+				border-color: #003300;
+			}
+			#main
+			{
+				padding: 10px 10px 10px 0px;
+			}
+			#main div
+			{
+				background-color: white;
+				padding: 10px;
+			}
+			#tabela-conteudo tr td, tr th
+			{
+				text-align: center;
+				vertical-align: middle;
+			}
+			#navbar-desing
+			{
+				background-color: #1a7fa4;
+				border: none;
+				padding: 10px;
+			}
+			#menu
+			{
+				padding: 0px;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav id="navbar-desing" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		      	<div class="container-fluid">
+		      		<a id="menu" class="navbar-brand" href="#"><img src="../../../img/logo.jpg"/></a>
+
+		        	<div class="navbar-header">
+		          		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9">
+				            <span class="sr-only">Toggle navigation</span>
+				            <span class="icon-bar"></span>
+				            <span class="icon-bar"></span>
+				            <span class="icon-bar"></span>
+		          		</button>
+		        	</div>
+
+			        <div class="navbar-right">
+		          		<a class="navbar-brand" id="texto-notificacao" href="#">
+		          			<span class="fa fa-bell-o"></span>
+		          			Notificações
+		          			<span class="badge" id="notificacao">11</span>
+		          		</a>
+		          		<div class="pull-right" id="user-area">
+			          		Olá, Felipe
+				            <a href="#" id="usuario" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+				            	<img class="img-thumbnail" src="felipe.png"/>
+				            </a>
+				            <ul class="dropdown-menu" role="menu">
+				                <li><a href="#">Perfil</a></li>
+				                <li><a href="#">Sair</a></li>
+				            </ul>
+			            </div>
+			        </div>
+		      	</div>
+		    </nav>
+		</header>
+		
+		<section class="container-fluid">
+			<div class="row">
+				<div id="menu-lateral" class="col-md-2">
+					<ul class="nav nav-pills nav-stacked affix" role="tablist">
+			        	<li role="presentation"><a href="#">Bases</a></li>
+			        	<li role="presentation" class="active"><a href="#">Conteúdos</a></li>
+			        	<li role="presentation"><a href="#">Usuários</a></li>
+			        	<li role="presentation"><a href="#">Grupos</a></li>
+			        	<li role="presentation"><a href="#">Histórico</a></li>
+			        	<li role="presentation"><a href="#">Palavras-chave</a></li>
+			        	<li role="presentation"><a href="#">Aparência</a></li>
+			        	<li role="presentation"><a href="#">Configuração</a></li>
+			    	</ul>
+				</div>	
+				<div id="main" class="col-md-10">
+					<div>
+						<h2>
+							Conteúdos
+							<button id="botao-adicionar" class="btn">
+								<span class="glyphicon glyphicon-plus"></span>
+								 Adicionar
+							</button>
+						</h2>
+						 
+						<table id="tabela-conteudo" class="table">
+							<tr>
+								<th></th>
+								<th>Título</th>
+								<th>Data</th>
+								<th>Tipo</th>
+								<th>Situação</th>
+								<th>Ações</th>
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								<td>Conteúdo da célula</td>
+								<td>23/07/2014</td>
+								<td>artigo</td>
+								<td>público</td>
+								<td>
+									<button class="btn btn-primary">
+										Visualizar 
+										<span class="fa fa-binoculars"></span>
+									</button>
+									<button class="btn btn-warning">
+										Editar 
+										<span class="glyphicon glyphicon-pencil"></span>
+									</button>
+									<button class="btn btn-danger">
+										Excluir 
+										<span class="glyphicon glyphicon-trash"></span>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								<td>Conteúdo da célula</td>
+								<td>23/07/2014</td>
+								<td>artigo</td>
+								<td>público</td>
+								<td>
+									<button class="btn btn-primary">
+										Visualizar 
+										<span class="fa fa-binoculars"></span>
+									</button>
+									<button class="btn btn-warning">
+										Editar 
+										<span class="glyphicon glyphicon-pencil"></span>
+									</button>
+									<button class="btn btn-danger">
+										Excluir 
+										<span class="glyphicon glyphicon-trash"></span>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								<td>Conteúdo da célula</td>
+								<td>23/07/2014</td>
+								<td>artigo</td>
+								<td>público</td>
+								<td>
+									<button class="btn btn-primary">
+										Visualizar 
+										<span class="fa fa-binoculars"></span>
+									</button>
+									<button class="btn btn-warning">
+										Editar 
+										<span class="glyphicon glyphicon-pencil"></span>
+									</button>
+									<button class="btn btn-danger">
+										Excluir 
+										<span class="glyphicon glyphicon-trash"></span>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								<td>Conteúdo da célula</td>
+								<td>23/07/2014</td>
+								<td>artigo</td>
+								<td>público</td>
+								<td>
+									<button class="btn btn-primary">
+										Visualizar 
+										<span class="fa fa-binoculars"></span>
+									</button>
+									<button class="btn btn-warning">
+										Editar 
+										<span class="glyphicon glyphicon-pencil"></span>
+									</button>
+									<button class="btn btn-danger">
+										Excluir 
+										<span class="glyphicon glyphicon-trash"></span>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								<td>Conteúdo da célula</td>
+								<td>23/07/2014</td>
+								<td>artigo</td>
+								<td>público</td>
+								<td>
+									<button class="btn btn-primary">
+										Visualizar 
+										<span class="fa fa-binoculars"></span>
+									</button>
+									<button class="btn btn-warning">
+										Editar 
+										<span class="glyphicon glyphicon-pencil"></span>
+									</button>
+									<button class="btn btn-danger">
+										Excluir 
+										<span class="glyphicon glyphicon-trash"></span>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								<td>Conteúdo da célula</td>
+								<td>23/07/2014</td>
+								<td>artigo</td>
+								<td>público</td>
+								<td>
+									<button class="btn btn-primary">
+										Visualizar 
+										<span class="fa fa-binoculars"></span>
+									</button>
+									<button class="btn btn-warning">
+										Editar 
+										<span class="glyphicon glyphicon-pencil"></span>
+									</button>
+									<button class="btn btn-danger">
+										Excluir 
+										<span class="glyphicon glyphicon-trash"></span>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								<td>Conteúdo da célula</td>
+								<td>23/07/2014</td>
+								<td>artigo</td>
+								<td>público</td>
+								<td>
+									<button class="btn btn-primary">
+										Visualizar 
+										<span class="fa fa-binoculars"></span>
+									</button>
+									<button class="btn btn-warning">
+										Editar 
+										<span class="glyphicon glyphicon-pencil"></span>
+									</button>
+									<button class="btn btn-danger">
+										Excluir 
+										<span class="glyphicon glyphicon-trash"></span>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								<td>Conteúdo da célula</td>
+								<td>23/07/2014</td>
+								<td>artigo</td>
+								<td>público</td>
+								<td>
+									<button class="btn btn-primary">
+										Visualizar 
+										<span class="fa fa-binoculars"></span>
+									</button>
+									<button class="btn btn-warning">
+										Editar 
+										<span class="glyphicon glyphicon-pencil"></span>
+									</button>
+									<button class="btn btn-danger">
+										Excluir 
+										<span class="glyphicon glyphicon-trash"></span>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								<td>Conteúdo da célula</td>
+								<td>23/07/2014</td>
+								<td>artigo</td>
+								<td>público</td>
+								<td>
+									<button class="btn btn-primary">
+										Visualizar 
+										<span class="fa fa-binoculars"></span>
+									</button>
+									<button class="btn btn-warning">
+										Editar 
+										<span class="glyphicon glyphicon-pencil"></span>
+									</button>
+									<button class="btn btn-danger">
+										Excluir 
+										<span class="glyphicon glyphicon-trash"></span>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								<td>Conteúdo da célula</td>
+								<td>23/07/2014</td>
+								<td>artigo</td>
+								<td>público</td>
+								<td>
+									<button class="btn btn-primary">
+										Visualizar 
+										<span class="fa fa-binoculars"></span>
+									</button>
+									<button class="btn btn-warning">
+										Editar 
+										<span class="glyphicon glyphicon-pencil"></span>
+									</button>
+									<button class="btn btn-danger">
+										Excluir 
+										<span class="glyphicon glyphicon-trash"></span>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								<td>Conteúdo da célula</td>
+								<td>23/07/2014</td>
+								<td>artigo</td>
+								<td>público</td>
+								<td>
+									<button class="btn btn-primary">
+										Visualizar 
+										<span class="fa fa-binoculars"></span>
+									</button>
+									<button class="btn btn-warning">
+										Editar 
+										<span class="glyphicon glyphicon-pencil"></span>
+									</button>
+									<button class="btn btn-danger">
+										Excluir 
+										<span class="glyphicon glyphicon-trash"></span>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								<td>Conteúdo da célula</td>
+								<td>23/07/2014</td>
+								<td>artigo</td>
+								<td>público</td>
+								<td>
+									<button class="btn btn-primary">
+										Visualizar 
+										<span class="fa fa-binoculars"></span>
+									</button>
+									<button class="btn btn-warning">
+										Editar 
+										<span class="glyphicon glyphicon-pencil"></span>
+									</button>
+									<button class="btn btn-danger">
+										Excluir 
+										<span class="glyphicon glyphicon-trash"></span>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								<td>Conteúdo da célula</td>
+								<td>23/07/2014</td>
+								<td>artigo</td>
+								<td>público</td>
+								<td>
+									<button class="btn btn-primary">
+										Visualizar 
+										<span class="fa fa-binoculars"></span>
+									</button>
+									<button class="btn btn-warning">
+										Editar 
+										<span class="glyphicon glyphicon-pencil"></span>
+									</button>
+									<button class="btn btn-danger">
+										Excluir 
+										<span class="glyphicon glyphicon-trash"></span>
+									</button>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<script type="text/javascript" src="../../../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../../../js/bootstrap.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,55 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+	
+class Plataforma_Model extends CI_Model{
+	
+	var $codigo; 
+	var $nome;
+	var $descricao;
+
+	public function search()
+	{
+		$where = array();
+
+		if ($this->codigo)
+			$where['codigo'] = $this->codigo;
+		if ($this->nome)
+			$where['nome'] = $this->nome;
+		if ($this->descricao)
+			$where['descricao'] = $this->descricao;
+		
+		$query = $this->db->get_where('plataformas', $where);
+
+		return $query->result();
+	}
+
+	public function get()
+	{
+		$plataforma = $this->search()[0];
+
+		$this->codigo  = $plataforma->codigo; 
+		$this->nome  = $plataforma->nome;
+		$this->descricao  = $plataforma->descricao;
+
+		return $plataforma;
+	}
+
+	public function getAll()
+	{
+		$query = $this->db->get('plataformas');
+		return $query->result();	
+	}
+
+	public function join($tabelas = array())
+	{		
+		$plataforma = $this->get();
+
+		if (isset($tabelas["palavraschave"])) 
+		{
+			$where = array('codigo_plataforma' => $plataforma->codigo);
+			$plataforma->palavraschave = $this->db->get_where('palavraschave', $where)->result();
+		}
+		
+		return $plataforma;
+	}
+
+}

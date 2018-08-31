@@ -1,0 +1,474 @@
+
+			body
+			{
+				background-color: #32a3cb;
+			}
+			section
+			{
+				background-color: #32a3cb;
+			}
+			h2
+			{
+				-webkit-margin-before: 0px;
+				-webkit-margin-after: 0px;
+				padding-bottom: 20px;
+			}
+			a.perfil-mobile
+			{
+				color: white;
+			}
+			a.perfil-mobile:hover
+			{
+				background-color: white;
+				color: #1a7fa4;
+			}
+			a.menu-mobile
+			{
+				text-align: left;
+				color: white !important;
+			}
+			a.menu-mobile:hover
+			{
+				color: #1a7fa4 !important;
+				background-color: white !important;
+			}
+			th
+			{
+				background-color: #1a7fa4;
+				color: white;
+			}
+			#botao-menu, #botao-menu:focus
+			{
+				background-color: #1a7fa4;
+				color: white;
+				border-color: white;
+			}
+			#texto-notificacao
+			{
+				color: white;
+			}
+			#texto-notificacao:hover
+			{
+				background-color: white;
+				color: #1a7fa4;
+			}
+			#notificacao
+			{
+				border: 1px solid white;
+				border-radius: 20px;
+				background-color: red;
+				color: white;
+			}
+			#user-area
+			{
+				color: white;
+				padding-top: 10px;
+				margin-left: 50px;
+			}
+			#user-area img
+			{
+				padding: 1px;
+				width: 35px;
+				height: auto;
+			}
+			#menu-lateral
+			{
+				padding: 10px;
+				position: relative;
+				border: none;
+			}
+			#menu-lateral ul
+			{
+				background-color: white;
+				padding: 10px;
+				width: 15%;
+			}
+			#menu-lateral a:hover div div 
+			{
+				background-color: #1a7fa4;
+				color: white;
+			}
+			#botao-adicionar
+			{
+				background-color: #009900;
+				border-color: #006600;
+				color: white;
+			}
+			#botao-adicionar:hover
+			{
+				background-color: #006600;
+				border-color: #003300;
+			}
+			
+			body > section > div > #main
+			{
+				padding-top: 10px;
+				padding-right: 10px;
+				padding-bottom: 10px;
+			}
+			body > section > div >#main>div
+			{
+				background-color: white;
+				padding: 10px;
+				overflow: hidden;
+			}
+			#corpo-administrador
+			{
+				min-height: 500px;
+			}
+			#tabela-conteudo tr td, tr th
+			{
+				text-align: center;
+				vertical-align: middle;
+			}
+			#navbar-desing
+			{
+				background-color: #1a7fa4;
+				border: none;
+				padding: 10px;
+				border-radius: 0;
+			}
+			#menu
+			{
+				padding: 0px;
+			}
+			#img-usuario
+			{
+				width: 50px;
+				height: auto;
+			}
+			#menu-mobile
+			{
+				border-color: white;
+			}
+			#menu-pesquisa
+			{
+				margin: 0;
+			}
+			#input-pesquisa
+			{
+				padding: 0 !important;
+			}
+			.input-group
+			{
+				margin-bottom: 5px;
+			}
+			#tabela-notificacoes
+			{
+				margin-top: 8px;
+			}
+
+			@media (min-width: 768px)
+			{
+				#main
+				{
+					padding-left: 0px;
+				}
+				#navbar-desing
+				{
+					top: 0;
+					position: fixed;
+					right: 0;
+					left: 0;
+					z-index: 1030;
+					-webkit-transform: translate3d(0, 0, 0);
+					-o-transform: translate3d(0, 0, 0);
+					transform: translate3d(0, 0, 0);
+				}
+				section
+				{
+					margin-top: 70px;
+				}
+			}
+			@media (max-width: 767px)
+			{
+				#main
+				{
+					padding-left: 10px;
+				}
+				section
+				{
+					margin-top: -20px;
+				}
+				#menu-horizontal
+				{
+					display: none;
+				}
+				.conteudos
+				{
+					margin: 0;
+				}
+			}
+			@media (max-width: 1168px)
+			{
+				.hidden-conteudo
+				{
+					display: none !important;
+				}
+			}
+			@media (min-width: 768px) and (max-width: 991px)
+			{
+				.hidden-menu-lateral
+				{
+					display: none !important;
+				}
+				.conteudos
+				{
+					padding-left: 10px !important;
+					width: 100%;
+					margin-top: 40px;
+				}
+				#menu-horizontal
+				{
+					background-color: white;
+				}
+			}
+			@media (min-width: 992px)
+			{
+				#menu-horizontal
+				{
+					display: none;
+				}
+			}
+			@media (min-width: 768px) and (max-width: 804px)
+			{
+				#menu-horizontal
+				{
+					font-size: 12px;
+				}
+				.conteudos
+				{
+					margin-top: 37px !important;
+				}
+			}
+			
+			.label-img{
+				display: block;
+				max-width: 150px;
+			}
+			#img-logo{
+				max-width: 100%;
+			}
+			#formulario{
+				padding-top: 10px;
+				padding-bottom: 30px !important;
+				overflow: hidden;
+			}
+			#preview-tela{
+				position: relative;
+				color: white;
+				height: 320px;
+				width: 600px;
+			}
+			#preview-tela>img{
+				max-width: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			#preview-tela div{
+				display: block;
+				width: 100%;
+				position: relative;
+			}
+
+			#preview-tela #pv_topo{
+				height: 10%;
+				background-color: #1a7fa4;
+			}
+
+			#preview-tela #pv_topo img{
+				max-width: 10%;
+				max-height: 75%;
+				margin-left: 4%;
+				margin-top: 0.5%;
+			}
+			#preview-tela #pv_topo p{
+				position: absolute;
+				top: 2%;
+				text-align: right;
+				right: 0;
+			}
+			#preview-tela #pv_topo p strong{
+				margin-right: 10px;
+				font-size: 0.8em;
+			}
+			
+			#preview-tela #pv_cabecario{
+				height: 22%;
+				background-size: cover;
+			}
+
+			#preview-tela #pv_cabecario span{
+				font-size: 2.5em;
+				margin-left: 3.5%;
+				margin-top: 1.5%;
+			}
+			#preview-tela #pv_cabecario strong{
+				position: absolute;
+				margin-top: 1%;
+				margin-left: 1%
+			}
+			#preview-tela #pv_cabecario p{
+				position: absolute;
+				margin-top: -3%;
+				margin-left: 9.5%;
+				font-size: 0.8em;
+				font-weight: bold;
+			}
+			#preview-tela #pv_cabecario small{
+				padding-top: 6.5%;
+				position: absolute;
+				font-size: 0.5em;
+				margin-left: 1%;
+			}
+			#preview-tela #pv_corpo{
+				height: 62%;
+				background-color: #f0f3f5;
+				color: black;
+				padding-top: 4%;
+			}
+			#preview-tela #pv_corpo>div{
+				float: left;
+			}
+			#preview-tela #pv_corpo>div:first-child{
+				width: 26%;
+				padding-left: 4%;
+			}
+			#preview-tela #pv_corpo>div:first-child strong{
+				margin-top: 7%;
+				display: inline-block;
+				font-size: 0.8em;
+				margin-left: 3.5%;
+				border-bottom: solid 1px;
+				padding-right: 36%;
+			}
+			#preview-tela #pv_corpo>div:first-child p{
+				margin: 0 0 10px;
+				margin-left: 4%;
+				font-size: 0.7em;
+				margin-top: 1%;
+			}
+			#preview-tela #pv_corpo>div:last-child{
+				width: 70%;
+				padding-left: 1%;
+			}
+			#preview-tela #pv_corpo>div:last-child strong{
+				margin-top: 2%;
+				display: inline-block;
+				font-size: 0.8em;
+				border-bottom: solid 1px;
+				padding-right: 82%;
+			}
+			#preview-tela #pv_corpo>div:last-child{
+				background-color: white;
+			}
+			#preview-tela #pv_corpo>div:last-child>div{
+				padding: 2%;
+				width: 50%;
+			}
+			#preview-tela #pv_corpo>div div{
+				margin-top: 1%;
+			}
+			#preview-tela #pv_corpo>div:last-child .selected{
+				border: solid 1px;
+				background-color: #999;
+			}
+			#preview-tela #pv_corpo>div:last-child span{
+				font-size: 2em;
+				float: left;
+				margin: 1%;
+			}
+
+			#preview-tela #pv_rodape{
+				height: 6%;
+				background-color: #1a7fa4;
+			}
+
+			#preview-tela #pv_rodape p{
+				text-align: center;
+				font-size: 0.8em;
+				line-height: 1.8em;
+			}
+
+			.send-image{
+				display: none !important;
+			}
+
+			input[type='color']{
+				padding: 0;
+			}
+			
+			img[src="#"]{
+				display: none;
+			}
+			.preview-img{
+				margin: 5px;
+			}
+
+			/* xs */
+			@media (max-width: 767px) {
+				#preview-tela{
+					width: 272px;
+					height: 145px;
+				}
+
+				#preview-tela #pv_topo img{
+					margin-top: -3%;
+				}
+				#preview-tela #pv_topo p{
+					font-size: 0.5em;
+				}
+
+				#preview-tela #pv_cabecario span{
+					font-size: 1.1em;
+					margin-left: 3.5%;
+					margin-top: 2.5%;
+				}
+				#preview-tela #pv_cabecario strong{
+					font-size: 0.4em;
+				}
+				#preview-tela #pv_cabecario p{
+					margin-top: -5%;
+					font-size: 0.4em;
+				}
+				#preview-tela #pv_cabecario small{
+					font-size: 0.3em
+				}
+				#preview-tela #pv_corpo>div:first-child strong,
+				#preview-tela #pv_corpo>div:first-child p{
+					font-size: 0.4em;
+				}
+				#preview-tela #pv_corpo>div:last-child strong{
+					font-size: 0.4em;	
+					margin-top: 0;
+				}
+				#preview-tela #pv_corpo>div:last-child>div{
+					padding: 1%;
+				}
+				#preview-tela #pv_corpo>div:last-child span{
+					font-size: 1em;
+				}
+				#preview-tela #pv_corpo>div:last-child p{
+					font-size: 0.4em;
+				}
+				#preview-tela #pv_rodape p{
+					line-height: 0;
+					font-size: 0.4em;
+					padding: 0;
+					margin-top: 6px;
+				}
+			}
+			#modal
+			{
+				height: 100%;
+			}
+			#corpo-modal
+			{
+				height: 80%;
+			}
+			iframe
+			{
+				width: 100%;
+				height: 100%;
+			}

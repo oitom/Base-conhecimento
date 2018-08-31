@@ -1,0 +1,62 @@
+#image-container
+{
+	text-align: center;
+}
+.row [class^=col-]{
+	padding: 0;
+}
+#corpo-conteudo{
+	border:1px solid black;
+	border-bottom: 0;
+	margin-top: 25px;
+}
+.menu-conteudo-opcoes{
+	border-bottom: 1px solid black;
+	margin:0;
+	border-radius: 0;
+}
+.menu-opcoes-collapse{
+	padding: 0;
+}
+.item-opcoes a:first-child{
+	padding-left: 0;
+}
+
+.corpo-texto{
+	border-bottom: 1px solid black;
+	padding: 25px 15px;
+}
+#area-comentario{
+	background-color: rgba(192, 192, 192, 1);
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+	margin-bottom: 80px;
+}
+#area-comentario h3{
+	margin-left: 15px;
+}
+#area-comentario textarea{
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+#area-comentario button{
+	float: right;;
+}
+.texto-comentario{
+	padding: 25px 15px;
+}
+.texto-comentario .row{
+	margin: 0;
+}
+.media-list{
+	background: #FFF;
+	padding: 10px;
+}
+.enviar-comentario .form-group{
+	margin: 0px 15px;
+}
+.navbar-nav {
+	margin: 7.5px 0px;
+}
